@@ -1,6 +1,6 @@
 ---
-title: "Docsy Blog"
-linkTitle: "Blog"
+title: "KatDB Blog"
+linkTitle: "Posts"
 menu:
   main:
     weight: 30

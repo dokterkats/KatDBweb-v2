@@ -1,5 +1,5 @@
 ---
-title: Community
+title: Contribute
 menu:
   main:
     weight: 40
