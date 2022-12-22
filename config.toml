@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://v2.katdb.info"
 title = "KatDB"
 
 # Language settings
@@ -181,21 +181,23 @@ enable = false
   icon = "fab fa-paypal"
   desc = "A one-time support method (No PayPal account required)"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-[[params.links.developer]]
-  name = "GitHub"
-  url = "https://github.com/dokterkats/katDB"
-  icon = "fab fa-github"
-  desc = "Development takes place here!"
+
 #[[params.links.developer]]
 #  name = "Slack"
 #  url = "https://example.org/slack"
 #  icon = "fab fa-slack"
 #  desc = "Chat with other project developers"
 [[params.links.developer]]
+  name = "Form"
+  url = "https://docs.google.com/forms/d/e/1FAIpQLSf0KzElDFOZqDCju3HNwurYGyTybZJJeThyOtdaTWLso5AjCQ/viewform?usp=sf_link"
+  icon = "fa-solid fa-file-pen"
+  desc = "Contribute a game to the database trough Google Forms!"
+  
+  [[params.links.developer]]
   name = "Discord"
   url = "https://discord.gg/kat-vr-community-785305088465567824"
   icon = "fab fa-discord"
-  desc = "Community established Kat VR Discord Server"
+  desc = "Join the community established Kat VR Discord Server!"
 
 # hugo module configuration
 

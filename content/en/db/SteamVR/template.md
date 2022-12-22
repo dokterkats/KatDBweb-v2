@@ -2,6 +2,7 @@
 title = "A Walk In The Woods"
 exclude_search = false
 type = "docs"
+renderComments = true
 +++
 ### Rating: ⭐⭐⭐
 
@@ -33,3 +34,4 @@ Gateway version: 2.1.3
 <br>
 
 <img src="https://raw.githubusercontent.com/dokterkats/katDB/21f1666dbdfeee2fbbbe2ca1a7f703ec86753c03/settings/AWalkInTheWoods/settings-ingame.PNG" style="width: 50%;">
+

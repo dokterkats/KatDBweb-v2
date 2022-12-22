@@ -1,6 +1,6 @@
 +++
 author = "Dokterkat"
-title = "KatVR Nexus"
+title = "KatVR Nexus - Announcement"
 date = "2022-11-01"
 description = "What we know"
 tags = ["Info"]
