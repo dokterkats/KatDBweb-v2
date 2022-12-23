@@ -4,19 +4,19 @@
   data-comment-id="{{ .id }}"
   data-author-name="{{ .authorName }}"
   data-nesting-level="{{ .nestingLevel }}"
-  itemprop="comment" itemscope itemtype="https://schema.org/Comment">
-  <div class="welcomments__comment-header">
-    <div class="welcomments__author-avatar">
-      <img class="welcomments__author-avatar-img" {{ printf "src=\"%s\"" .avatarUrl | safeHTMLAttr }} alt="{{ .authorName }}"/>
+  itemprop="comment" itemscope itemtype="https://schema.org/Comment" style="color: white;">
+  <div class="welcomments__comment-header" style="color: white;">
+    <div class="welcomments__author-avatar" style="color: white;">
+      <img class="welcomments__author-avatar-img" {{ printf "src=\"%s\"" .avatarUrl | safeHTMLAttr }} alt="{{ .authorName }}" style="color: white;"/>
     </div>
-    <div class="welcomments__author-information">
-      <div class="welcomments__author-name-and-time">
-        <h3 class="welcomments__author-name" itemprop="author" itemscope itemtype="https://schema.org/Person">
-          <span itemprop="name">{{ .authorName }}</span>
+    <div class="welcomments__author-information" style="color: white;">
+      <div class="welcomments__author-name-and-time" style="color: white;">
+        <h3 class="welcomments__author-name" itemprop="author" itemscope itemtype="https://schema.org/Person" style="color: white;">
+          <span itemprop="name" style="color: white;">{{ .authorName }}</span>
         </h3>
-        <p class="welcomments__comment-time">
-          <a {{ printf "href=\"#welcomments__comment-%s\"" .id | safeHTMLAttr }} itemprop="url">
-            <time datetime="{{ .dateXmlSchema }}" itemprop="datePublished">
+        <p class="welcomments__comment-time" style="color: white;">
+          <a {{ printf "href=\"#welcomments__comment-%s\"" .id | safeHTMLAttr }} itemprop="url" style="color: white;">
+            <time datetime="{{ .dateXmlSchema }}" itemprop="datePublished" style="color: white;">
               {{ .formattedDate }}
             </time>
           </a>
@@ -24,9 +24,9 @@
       </div>
     </div>
   </div>
-  <div itemprop="text" class="welcomments__comment-message">{{ .message }}</div>
+  <div itemprop="text" class="welcomments__comment-message" style="color: white;">{{ .message }}</div>
   <a class="welcomments__comment-reply-link"
-     {{ printf "href=\"%s/websites/%s/comments/%s/reply\"" .apiUrl .websiteId .id | safeHTMLAttr }}>
+     {{ printf "href=\"%s/websites/%s/comments/%s/reply\"" .apiUrl .websiteId .id | safeHTMLAttr }} style="color: black;">
     Reply to {{ .authorName }}
   </a>
 </article>
