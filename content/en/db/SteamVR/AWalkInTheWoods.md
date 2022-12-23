@@ -2,6 +2,7 @@
 title = "A Walk In The Woods"
 exclude_search = false
 type = "docs"
+renderComments = true
 +++
 ### Rating: ⭐⭐⭐
 

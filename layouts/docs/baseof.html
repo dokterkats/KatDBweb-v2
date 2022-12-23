@@ -24,6 +24,9 @@
             {{ partial "version-banner.html" . }}
             {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
             {{ block "main" . }}{{ end }}
+            {{ if .Params.renderComments }}
+  {{ partial "welcomments/comments" (dict "context" . "websiteId" "7l5HxMsorVpfx2znxnpWNr7l9" ) }}
+{{ end }}
           </main>
         </div>
       </div>

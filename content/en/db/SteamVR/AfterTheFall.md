@@ -2,6 +2,7 @@
 title = "After The Fall"
 exclude_search = false
 type = "docs"
+renderComments = true
 +++
 ### Rating: ⭐⭐⭐
 

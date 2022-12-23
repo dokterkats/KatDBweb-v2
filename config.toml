@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://v2.katdb.info"
 title = "KatDB"
 
 # Language settings
