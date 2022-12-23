@@ -5,6 +5,9 @@ type = "docs"
 +++
 ### Rating: ⭐⭐⭐
 
+### About:
+A Walk in the Woods is a virtual reality app that allows users to escape from their daily routines and enjoy nature through a virtual window. It is not a traditional game with monsters or puzzles, but rather a way to relax and escape stress. The app uses advanced technology to create a realistic experience, allowing users to feel as if they are actually walking through a summer forest. <br><br>
+
 ### Notes:
 The walking speed is very slow in the main game, this rating is based on the beta version available on Steam: <br><br>
 <img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/AWalkInTheWoods/steam-beta.png" style="width: 80%;">

@@ -1,9 +1,20 @@
-$primary: #222222;
-$secondary: #222222;
+$primary: #1d1d1e;
+$secondary: #1d1d1e;
 $enable-gradients: false;
 $enable-rounded: true;
 $enable-shadows: false;
 .td-navbar .navbar-brand__name {
   display: none;
+}
+a:link {
+  color: #30cd57;
+}
+
+a:visited {
+  color: #30cd57;
+}
+body {
+  background-color: #333333;
+  color: white;
 }
 

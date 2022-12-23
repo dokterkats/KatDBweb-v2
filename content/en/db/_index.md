@@ -4,7 +4,7 @@ weight = 10
 exclude_search = true
 type = "docs"
 +++
-
+Welcome to the Databases, there are currently 4 platforms listed on KatDB:
 <!-- {{% pageinfo %}}
 This is a placeholder page that shows you how to use this template site.
 {{% /pageinfo %}}
