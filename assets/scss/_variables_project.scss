@@ -24,4 +24,9 @@ div {
   left: 0;
   right: 0;
 }
-
+@media (min-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+}
