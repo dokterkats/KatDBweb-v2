@@ -7,8 +7,7 @@
   <body class="td-{{ .Kind }}{{ with .Page.Params.body_class }} {{ . }}{{ end }}">
   <style>
       body {
-        background-color: #1d1d1e;
-        color: white;
+        background-color: #201c1c;
       }
     </style>
     <header>
@@ -20,7 +19,7 @@
           <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
             {{ partial "sidebar.html" . }}
           </aside>
-          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
+          <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main" style="color: white;">
             {{ partial "version-banner.html" . }}
             {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
             {{ block "main" . }}{{ end }}
