@@ -186,11 +186,11 @@ enable = false
   url = "https://github.com/dokterkats/katDB"
   icon = "fab fa-github"
   desc = "Development takes place here!"
-#[[params.links.developer]]
-#  name = "Slack"
-#  url = "https://example.org/slack"
-#  icon = "fab fa-slack"
-#  desc = "Chat with other project developers"
+[[params.links.developer]]
+  name = "Contribute form"
+  url = "https://docs.google.com/forms/d/e/1FAIpQLSf0KzElDFOZqDCju3HNwurYGyTybZJJeThyOtdaTWLso5AjCQ/viewform?usp=sf_link"
+  icon = "fa-solid fa-file-pen"
+  desc = "Submit your own game report!"
 [[params.links.developer]]
   name = "Discord"
   url = "https://discord.gg/kat-vr-community-785305088465567824"
