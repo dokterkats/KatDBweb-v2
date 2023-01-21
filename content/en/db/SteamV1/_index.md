@@ -1,6 +1,6 @@
 +++
-title = "SteamVR (New Format)"
-weight = 1
+title = "SteamVR (KatDB V1)"
+weight = 15
 exclude_search = false
 type = "docs"
 +++
