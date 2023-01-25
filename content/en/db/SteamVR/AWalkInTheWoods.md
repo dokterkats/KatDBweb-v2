@@ -4,14 +4,9 @@ exclude_search = false
 type = "docs"
 renderComments = true
 +++
-### Rating: ⭐⭐⭐
+### Rating: ⭐⭐⭐ <br>
 
-### About:
-A Walk in the Woods is a virtual reality app that allows users to escape from their daily routines and enjoy nature through a virtual window. It is not a traditional game with monsters or puzzles, but rather a way to relax and escape stress. The app uses advanced technology to create a realistic experience, allowing users to feel as if they are actually walking through a summer forest. <br><br>
-
-### Notes:
-The walking speed is very slow in the main game, this rating is based on the beta version available on Steam: <br><br>
-<img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/AWalkInTheWoods/steam-beta.png" style="width: 80%;">
+<iframe src="https://store.steampowered.com/widget/557900/" frameborder="0" width="646" height="190"></iframe>
 
 ### Rating Info:
 **Walking speed realism:** The walking speed in the game is realistic and matches the user's speed on the treadmill. (3 points) <br><br>
@@ -22,8 +17,9 @@ The walking speed is very slow in the main game, this rating is based on the bet
 **Decoupled head/body:** The game supports decoupled head/body walking by default.
 
 **Entry info:** The game was tested using a **Valve Index** with **Valve Index Controllers** on the **Kat Walk C1**.
-### Credits:
-Entry by: Dokterkat
+### Notes:
+The walking speed is very slow in the main game, this rating is based on the beta version available on Steam: <br><br>
+<img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/AWalkInTheWoods/steam-beta.png" style="width: 80%;">
 
 ### Gateway Settings
 Gateway version: 2.1.3 
@@ -37,3 +33,7 @@ Gateway version: 2.1.3
 <br>
 
 <img src="https://raw.githubusercontent.com/dokterkats/katDB/21f1666dbdfeee2fbbbe2ca1a7f703ec86753c03/settings/AWalkInTheWoods/settings-ingame.PNG" style="width: 50%;">
+
+### Credits
+**Entry by:** Dokterkat <br>
+**Date:** December 2022

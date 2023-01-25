@@ -4,13 +4,11 @@ exclude_search = false
 type = "docs"
 renderComments = true
 +++
-### Rating: ⭐⭐
+### Rating: ⭐⭐ <br>
 
-### About:
-Boneworks features a unique physics-based interaction system, which allows players to manipulate objects, solve puzzles, and engage in melee and ranged combat in a highly detailed and interactive game world. Players use a combination of hand gestures and motion controllers to interact with objects and the environment, simulating realistic movements and interactions. The game environments are highly detailed and offers a lot of freedom for players to explore, experiment with physics-based interactions and to solve puzzles. Boneworks has been well received by critics for its innovative gameplay mechanics, physics-based interactions and the level of realism it brings to the VR experience. <br><br>
+<iframe src="https://store.steampowered.com/widget/823500/" frameborder="0" width="646" height="190"></iframe>
 
 ### Notes:
-You can find screenshots of the in-game setting adjustments below. <br><br>
 There is an Auto-Sprint mod available. I haven't tested it myself but the description sounds promising: 
 <blockquote>
 "This mod will allow you to sprint without having to double tap the analog stick. Your speed will increase from walking to sprinting as you go from the deadzone to full-tilt."
@@ -28,9 +26,6 @@ You can find the mod [here](https://bonelab.thunderstore.io/package/Lanno/Always
 
 **Entry info:** The game was tested using a **Valve Index** with **Valve Index Controllers** on the **Kat Walk C1**.
 
-### Credits:
-Entry by: Dokterkat
-
 ### Gateway Settings
 Gateway version: 2.1.3 
 <br>
@@ -42,3 +37,7 @@ Gateway version: 2.1.3
 ### In-Game settings
 **Locomotion direction:** Direction: HEAD <br><br>
 <img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/Boneworks/in-game.jpg" style="width: 80%;">
+
+### Credits
+**Entry by:** Dokterkat <br>
+**Date:** December 2022

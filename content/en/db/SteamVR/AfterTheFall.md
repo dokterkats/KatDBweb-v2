@@ -4,13 +4,9 @@ exclude_search = false
 type = "docs"
 renderComments = true
 +++
-### Rating: ⭐⭐⭐
+### Rating: ⭐⭐⭐ <br>
 
-### About:
-After the Fall is a multiplayer VR game set in a post-apocalyptic version of 1980s Los Angeles. Players team up with up to three other survivors to fight off zombies and other threats in a world where all hell has frozen over. Players can wield weapons and powers using real-life movements, and can join forces with other players from around the world. The goal is to defeat hordes of enemies and bosses to try to improve the state of the city. The game is built specifically for VR and features an evolving world shared by players on all platforms. <br><br>
-
-### Notes:
-You can find screenshots of the in-game setting adjustments below. <br><br>
+<iframe src="https://store.steampowered.com/widget/751630/" frameborder="0" width="646" height="190"></iframe>
 
 ### Rating Info:
 **Walking speed realism:** T The walking speed in the game is realistic and matches the user's speed on the treadmill. (3 points) <br><br>
@@ -21,9 +17,6 @@ You can find screenshots of the in-game setting adjustments below. <br><br>
 **Decoupled head/body:** The game supports decoupled head/body walking after adjusting the in-game settings.
 
 **Entry info:** The game was tested using a **Valve Index** with **Valve Index Controllers** on the **Kat Walk C1**.
-
-### Credits:
-Entry by: Dokterkat
 
 ### Gateway Settings
 Gateway version: 2.1.3 
@@ -37,3 +30,7 @@ Gateway version: 2.1.3
 **Orientation Mode:** Head <br>
 **Sprinting mode:** Auto-Sprint or Muzzle based, depending on your preference. <br><br>
 <img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/AfterTheFall/ingame.jpg" style="width: 80%;">
+
+### Credits
+**Entry by:** Dokterkat <br>
+**Date:** December 2022
