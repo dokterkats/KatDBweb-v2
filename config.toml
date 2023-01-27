@@ -84,7 +84,7 @@ section = ["HTML", "print", "RSS"]
 
 [params]
 copyright = ""
-privacy_policy = ""
+privacy_policy = "/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -216,3 +216,8 @@ enable = false
     name = "Databases"
     weight = 1
     url = "/db"
+    
+ [sitemap]
+  changefreq = ''
+  filename = 'sitemap.xml'
+  priority = 0.5
