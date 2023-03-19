@@ -54,14 +54,14 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+# id = "UA-00000000-0"
 
 # Language configuration
 
 [languages]
 [languages.en]
 title = "KatDB"
-description = ""
+description = "KatDB is a community-driven project providing game compatibility reports for KatVR Products. This website is a valuable resource for anyone looking to ensure their favorite games are compatible with KatVR devices."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -216,6 +216,11 @@ enable = false
     name = "Databases"
     weight = 1
     url = "/db"
+    
+[[menu.main]]
+    name = "Community"
+    weight = 40
+    url = "/community"
     
  [sitemap]
   changefreq = ''
