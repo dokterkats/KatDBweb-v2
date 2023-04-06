@@ -3,6 +3,7 @@ title = "Half-Life 2 (VR Mod)"
 exclude_search = false
 type = "docs"
 renderComments = true
+tags = ["Action", "Sci-fi", "Shooter"]
 +++
 ### Rating: ⭐⭐⭐ <br>
 

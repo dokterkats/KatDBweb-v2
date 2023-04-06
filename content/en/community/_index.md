@@ -1,5 +1,5 @@
 ---
-title: KatDB | Community
+title: Links
 description: "Join the KatDB community today and help improve the VR gaming experience for all KatVR users! Our community-driven project provides game compatibility reports for KatVR products, ensuring your favorite games work seamlessly with your device."
 ---
 <style>
@@ -52,5 +52,7 @@ description: "Join the KatDB community today and help improve the VR gaming expe
       </div>
     </div>
   </div>
+</div>
+
 </div>
 

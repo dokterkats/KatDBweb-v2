@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="td-content">
+  <style>
+      body {
+        background-color: #201c1c;
+        color: white;
+      }
+    </style>
+  <main class="taxonomy-terms-page">
+    <h1>{{ .Title }}</h1>
+    {{ partial "taxonomy_terms_cloud.html" (dict "context" . "taxo" ( lower .Title ) ) }}
+  </main>
+</div>
+{{ end }}

@@ -3,10 +3,16 @@ title = "A Walk In The Woods"
 exclude_search = false
 type = "docs"
 renderComments = true
+tags = ["Simulation"]
+
 +++
 ### Rating: ⭐⭐⭐ <br>
 
 <iframe src="https://store.steampowered.com/widget/557900/" frameborder="0" width="646" height="190"></iframe>
+
+### Notes:
+The walking speed is very slow in the main game, this rating is based on the beta version available on Steam: <br><br>
+<img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/AWalkInTheWoods/steam-beta.png" style="width: 80%;">
 
 ### Rating Info:
 **Walking speed realism:** The walking speed in the game is realistic and matches the user's speed on the treadmill. (3 points) <br><br>
@@ -17,9 +23,6 @@ renderComments = true
 **Decoupled head/body:** The game supports decoupled head/body walking by default.
 
 **Entry info:** The game was tested using a **Valve Index** with **Valve Index Controllers** on the **Kat Walk C1**.
-### Notes:
-The walking speed is very slow in the main game, this rating is based on the beta version available on Steam: <br><br>
-<img src="https://raw.githubusercontent.com/dokterkats/katDB/main/settings/AWalkInTheWoods/steam-beta.png" style="width: 80%;">
 
 ### Gateway Settings
 Gateway version: 2.1.3 

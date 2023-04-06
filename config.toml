@@ -217,11 +217,20 @@ enable = false
     weight = 1
     url = "/db"
     
+#[[menu.main]]
+#    name = "Posts"
+#    weight = 2
+#    url = "/blog"  
+    
 [[menu.main]]
-    name = "Community"
-    weight = 40
+    name = "Support us"
+    weight = 3
     url = "/community"
     
+[[menu.main]]
+    name = "Mods"
+    weight = 4
+    url = "/mods"
  [sitemap]
   changefreq = ''
   filename = 'sitemap.xml'

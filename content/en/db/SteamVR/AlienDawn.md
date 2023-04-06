@@ -3,6 +3,7 @@ title = "Alien Dawn"
 exclude_search = false
 type = "docs"
 renderComments = true
+tags = ["Action", "Survival", "Co-op"]
 +++
 ### Rating: ⭐⭐ <br>
 

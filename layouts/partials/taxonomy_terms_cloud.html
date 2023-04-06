@@ -1,0 +1,19 @@
+{{ $context := .context }}
+{{ $taxo := .taxo }}
+{{ if isset $context.Site.Taxonomies (lower $taxo) }}
+  {{ $taxonomy := index $context.Site.Taxonomies (lower $taxo) }}
+  {{ if (gt (len $taxonomy) 0)}}
+    <div class="taxonomy taxonomy-terms-cloud taxo-{{ urlize $taxo }}">
+      <div class="taxonomy-wrapper">
+        {{ range $taxonomy }}
+          <div>
+            <ul class="taxonomy-terms">
+              <li><a class="taxonomy-count" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}"><span class="taxonomy-label">{{ .Page.Title }}</span><span class="taxonomy-count">{{ .Count }}</span></a></li>
+            </ul>
+          </div>
+        {{ end }} 
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
+

@@ -3,6 +3,7 @@ title = "Boneworks"
 exclude_search = false
 type = "docs"
 renderComments = true
+tags = ["Action", "Physics", "Shooter"]
 +++
 ### Rating: ⭐⭐ <br>
 
