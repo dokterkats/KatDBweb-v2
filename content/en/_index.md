@@ -7,8 +7,7 @@ description: "KatDB is a community-driven project providing game compatibility r
 <style>
   body {
     background-color: #201c1c;
-    margin-left: 100px;
-    margin-right: 100px;
+  overflow-x: hidden;
   }
   h1,
   p {
@@ -33,21 +32,24 @@ description: "KatDB is a community-driven project providing game compatibility r
 <br></br><br></br>
 
 
-
-  # This is a database of game states for **KatVR Products**.
+<h2 style="color: white; margin-left: 100px;">
+  This is a database of game states for KatVR Products.
+</h2>
   
   <br></br>
-  
+ <p style="margin-left: 100px;">
   Welcome to KatDB! A website for KatVR game compatibility reports.
-  
+  </p>
   <br></br>
   
- <p style="background-color: #252526; padding: 10px;">
+ <p style="background-color: #252526; padding: 10px; margin-left: 100px; max-width: 90%;">
     <i class="fas fa-exclamation-circle" style="color: greens; margin-right: 10px;"></i>
     <strong>KatDB</strong> is a crowd-sourced project that relies on the community. You can contribute <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0KzElDFOZqDCju3HNwurYGyTybZJJeThyOtdaTWLso5AjCQ/viewform?usp=sf_link">here</a>
   </p>
 
 <br></br>
-
-Or see the Github [here](https://github.com/dokterkats/katDB). - Outdated for now, I will update it soon.
+<!--
+<p style="margin-left: 100px;">
+Or see the Github <a href="https://github.com/dokterkats/katDB">here</a>. - Outdated for now, I will update it soon.
+!-->
 
