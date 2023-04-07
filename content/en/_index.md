@@ -7,6 +7,8 @@ description: "KatDB is a community-driven project providing game compatibility r
 <style>
   body {
     background-color: #201c1c;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   h1,
   p {

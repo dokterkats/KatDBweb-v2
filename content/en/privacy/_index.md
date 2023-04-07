@@ -7,6 +7,8 @@ exclude_search = true
 <style>
   body {
     background-color: #201c1c;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   h1,
   p {
@@ -45,7 +47,8 @@ Link to the privacy policy of third-party service providers used by the website:
 <br></br>
 *   [Google Analytics](https://policies.google.com/privacy)
 *   [YouTube](https://policies.google.com/privacy)
-
+*   [Netlify](https://www.netlify.com/privacy/)
+*   [Welcomments](https://welcomments.io/privacy/)
 **Security**
 
 The security of your personal information is important to me, but remember that no method of transmission over the Internet, or method of electronic storage, is 100% secure. While I strive to use commercially acceptable means to protect your personal information, I cannot guarantee its absolute security.
@@ -53,7 +56,7 @@ The security of your personal information is important to me, but remember that 
 
 **Changes To This Privacy Policy**
 
-This Privacy Policy is effective as of 2023-03-22 and will remain in effect except concerning any changes in its provisions in the future, which will be in effect immediately after being posted on this page. I reserve the right to update or change my Privacy Policy at any time and you should check this Privacy Policy periodically. If I make any material changes to this Privacy Policy, I will notify you by placing a prominent notice on my website.
+This Privacy Policy is effective as of 07/04/2023 and will remain in effect except concerning any changes in its provisions in the future, which will be in effect immediately after being posted on this page. I reserve the right to update or change my Privacy Policy at any time and you should check this Privacy Policy periodically. If I make any material changes to this Privacy Policy, I will notify you by placing a prominent notice on my website.
 <br></br>
 **Contact Information**
 
