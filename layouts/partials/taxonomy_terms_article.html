@@ -1,44 +1,73 @@
 <style>
-        .taxonomy-wrapper {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-          grid-row-gap: 10px; 
-        }
-        .taxonomy-terms-cloud {
-          padding: 100px;
-          border-radius: 5px;
-          
-        }
-        .taxonomy-term {
-          background-color: #333;
-          color: #fff;
-          padding: 5px 15px;
-          margin: 5px;
-        }
-        .taxonomy-count {
-          background-color: #201c1c;
-          padding: 3px 10px;  
-          font-size: 15px;
-         outline: 2px solid #666;
-        }
-        .taxonomy-term:hover {
-          background-color: #333;
-          color: white;
-          outline: 2px solid #111;
-        }
-        
-      </style>
-
+  .taxonomy-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-row-gap: 10px; 
+  }
+  .taxonomy-terms-cloud {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .taxonomy-term {
+    display: inline-block; /* Change to inline-block */
+    background-color: #333;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 5px;
+  }
+  .taxonomy-count {
+    background-color: #201c1c;
+    padding: 3px 10px;  
+    font-size: 15px;
+    outline: 2px solid #666;
+  }
+  .taxonomy-term:hover {
+    background-color: #333;
+    color: white;
+    outline: 2px solid #111;
+  }
+  /* Special styling for GOLD, SILVER, and BRONZE tags */
+  .taxonomy-term.gold {
+    background-color: gold;
+    color: black;
+  }
+  .taxonomy-term.silver {
+    background-color: silver;
+    color: black;
+  }
+  .taxonomy-term.bronze {
+    background-color: #cd7f32;
+    color: black;
+  }
+  .taxonomy-terms li {
+    margin-bottom: 5px;
+  }
+</style>
 
 {{ $context := .context }}
 {{ $taxo := .taxo }}
 {{ if (gt (len ($context.GetTerms $taxo)) 0)}}
-<div class="taxonomy taxonomy-terms-article taxo-{{ urlize $taxo }}">
-  <h5 class="taxonomy-title">{{ humanize $taxo }}:</h5>
-  <ul class="taxonomy-terms">
-    {{ range ($context.GetTerms $taxo) }}
-      <li><a class="taxonomy-term" href="{{ .Permalink }}" data-taxonomy-term="{{ urlize .LinkTitle }}"><span class="taxonomy-label">{{ .LinkTitle }}</span></a></li>
-    {{ end }}
-  </ul>
-</div>
+  <div class="taxonomy taxonomy-terms-article taxo-{{ urlize $taxo }}">
+    <h5 class="taxonomy-title">{{ humanize $taxo }}:</h5>
+    <ul class="taxonomy-terms">
+      {{ range ($context.GetTerms $taxo) }}
+        {{ if ne .LinkTitle "Hidden" }}
+          {{ if or (eq .LinkTitle "GOLD") (eq .LinkTitle "SILVER") (eq .LinkTitle "BRONZE") }}
+            <li>
+              <a class="taxonomy-term {{ .LinkTitle | lower }}" href="{{ .Permalink }}" data-taxonomy-term="{{ urlize .LinkTitle }}">
+                <span class="taxonomy-label">{{ .LinkTitle }}</span>
+              </a>
+            </li>
+          {{ else }}
+            <li>
+              <div class="taxonomy-term">
+                <span class="taxonomy-label">{{ .LinkTitle }}</span>
+              </div>
+            </li>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
 {{ end }}
+

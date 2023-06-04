@@ -3,7 +3,7 @@ title = "Blade and Sorcery"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["Action ", "Fighting", "Physics"]
+tags = ["GOLD", "Action ", "Arena", "Fighting", "Physics"]
 +++
 ### Rating: ⭐⭐⭐ <br>
 

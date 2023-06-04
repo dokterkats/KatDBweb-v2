@@ -3,7 +3,7 @@ title = "Drunkn Bar Fight"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["Action", "Fighting", "Comedy"]
+tags = ["SILVER", "Action", "Fighting"]
 +++
 ### Rating: ⭐⭐ <br>
 

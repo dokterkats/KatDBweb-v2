@@ -1,3 +1,19 @@
+<style>
+.taxonomy-term {
+  background-color: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.taxonomy-term a {
+  color: white;
+  text-decoration: none;
+}
+
+</style>
+
 {{ $context := .context }}
 {{ $taxo := .taxo }}
 {{ if isset $context.Site.Taxonomies (lower $taxo) }}
@@ -6,11 +22,18 @@
     <div class="taxonomy taxonomy-terms-cloud taxo-{{ urlize $taxo }}">
       <div class="taxonomy-wrapper">
         {{ range $taxonomy }}
-          <div>
-            <ul class="taxonomy-terms">
-              <li><a class="taxonomy-count" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}"><span class="taxonomy-label">{{ .Page.Title }}</span><span class="taxonomy-count">{{ .Count }}</span></a></li>
-            </ul>
-          </div>
+          {{ if ne .Page.Title "Hidden" }}
+            <div class="taxonomy-term">
+              <ul class="taxonomy-terms">
+                <li>
+                  <a class="taxonomy-count" href="{{ .Page.Permalink }}" data-taxonomy-term="{{ urlize .Page.Title }}">
+                    <span class="taxonomy-label">{{ .Page.Title }}</span>
+                    <span class="taxonomy-count">{{ .Count }}</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          {{ end }}
         {{ end }} 
       </div>
     </div>

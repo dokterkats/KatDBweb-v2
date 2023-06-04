@@ -3,8 +3,9 @@ title = "Half-Life 2 (VR Mod)"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["Action", "Sci-fi", "Shooter"]
+tags = ["GOLD", "Action", "Sci-fi", "Shooter"]
 +++
+
 ### Rating: ⭐⭐⭐ <br>
 
 <iframe src="https://store.steampowered.com/widget/658920/" frameborder="0" width="646" height="190"></iframe>

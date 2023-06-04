@@ -3,9 +3,11 @@ title = "A Walk In The Woods"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["Simulation"]
+tags = ["GOLD", "Simulation"]
 
 +++
+<!-- "Hidden", "GOLD", "SILVER", "BRONZE", "Action", "Arena", "Co-op", "Fighting", "Gore", "Multiplayer", "Physics", "Sci-fi", "Shooter", "Simulation", "Survival", "Zombies" -->
+
 ### Rating: ⭐⭐⭐ <br>
 
 <iframe src="https://store.steampowered.com/widget/557900/" frameborder="0" width="646" height="190"></iframe>

@@ -3,7 +3,7 @@ title = "Gorn"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["Action", "Arena", "Gore", "Fighting"]
+tags = ["SILVER", "Action", "Arena", "Gore", "Fighting"]
 +++
 ### Rating: ⭐⭐ <br>
 

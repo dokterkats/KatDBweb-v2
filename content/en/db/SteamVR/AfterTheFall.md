@@ -4,10 +4,10 @@ exclude_search = false
 type = "docs"
 renderComments = true
 steamID = "751630"
-tags = ["Action", "Co-op", "Zombies", "Shooter"]
+tags = ["GOLD", "Action", "Co-op", "Multiplayer", "Zombies", "Shooter"]
 +++
 ### Rating: ⭐⭐⭐ <br>
-
+<!-- "Hidden", "GOLD", "SILVER", "BRONZE", "Action", "Arena", "Co-op", "Fighting", "Gore", "Multiplayer", "Physics", "Sci-fi", "Shooter", "Simulation", "Survival", "Zombies" -->
 <iframe src="https://store.steampowered.com/widget/751630/" frameborder="0" width="646" height="190"></iframe>
 
 ### Rating Info:

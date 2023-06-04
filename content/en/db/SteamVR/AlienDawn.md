@@ -3,10 +3,10 @@ title = "Alien Dawn"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["Action", "Survival", "Co-op"]
+tags = ["SILVER", "Action", "Survival", "Co-op", "Multiplayer"]
 +++
 ### Rating: ⭐⭐ <br>
-
+<!-- "Hidden", "GOLD", "SILVER", "BRONZE", "Action", "Arena", "Co-op", "Fighting", "Gore", "Multiplayer", "Physics", "Sci-fi", "Shooter", "Simulation", "Survival", "Zombies" -->
 <iframe src="https://store.steampowered.com/widget/1376580/" frameborder="0" width="646" height="190"></iframe>
 
 ### Rating Info:
