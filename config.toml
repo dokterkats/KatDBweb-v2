@@ -223,11 +223,6 @@ enable = false
 #    url = "/blog"  
     
 [[menu.main]]
-    name = "Support us"
-    weight = 3
-    url = "/community"
-    
-[[menu.main]]
     name = "Mods"
     weight = 4
     url = "/mods"

@@ -7,7 +7,7 @@ description: "Join the KatDB community today and help improve the VR gaming expe
     background-color: #201c1c;
   }
   h1,
-  p {
+      p {
     color: white;
     margin: 0 auto;
     width: 100%;
@@ -25,6 +25,21 @@ description: "Join the KatDB community today and help improve the VR gaming expe
     border-color: #171717;
   }
 </style>
+<div><a class="td-offset-anchor"></a></div>
+<section
+  class="row td-box td-box--primary position-relative td-box--height-auto"
+>
+  <div class="col-12">
+    <div class="container text-center td-arrow-down">
+      <span class="h4 mb-0">
+        <h1>This is a database of game states for KatVR Products.</h1>
+        </br>
+        <p>KatDB is an open source project that anyone in the community can use, improve, and enjoy. We'd love you to join us! Here's a few ways to find out what's happening and get involved.</p>
+      </span>
+    </div>
+  </div>
+</section>
+
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-lg-3">
