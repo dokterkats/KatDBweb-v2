@@ -39,6 +39,7 @@ description: "Enhance your immersion, gameplay, and customization with these exc
         <img src="https://cdn.akamai.steamstatic.com/steam/apps/629730/header.jpg?t=1679575283" alt="Blade and Sorcery banner" />
         </div>
         <a href="https://github.com/McFredward/BaS_Katwalk">
+        Download </br>
         <i class="fas fa-download"></i></a>
         </br>
         Created by <a href="https://github.com/McFredward">McFredward</a>
@@ -52,6 +53,7 @@ description: "Enhance your immersion, gameplay, and customization with these exc
         <img src="https://cdn.akamai.steamstatic.com/steam/apps/843390/header.jpg?t=1680281081" alt="Vertigo 2 Banner" />
         </div>
         <a href="https://github.com/McFredward/Vertigo2_Katwalk">
+        Download </br>
         <i class="fas fa-download"></i></a>
         </br>
         Created by <a href="https://github.com/McFredward">McFredward</a>
