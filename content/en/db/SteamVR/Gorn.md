@@ -3,9 +3,9 @@ title = "Gorn"
 exclude_search = false
 type = "docs"
 renderComments = true
-tags = ["SILVER", "Action", "Arena", "Gore", "Fighting"]
+tags = ["GOLD", "Action", "Arena", "Gore", "Fighting"]
 +++
-### Rating: ⭐⭐ <br>
+### Rating: ⭐⭐⭐ <br>
 
 <iframe src="https://store.steampowered.com/widget/578620/" frameborder="0" width="646" height="190"></iframe>
 

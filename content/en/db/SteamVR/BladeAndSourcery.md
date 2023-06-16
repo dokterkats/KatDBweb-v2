@@ -9,6 +9,10 @@ tags = ["GOLD", "Action ", "Arena", "Fighting", "Physics"]
 
 <iframe src="https://store.steampowered.com/widget/629730/" frameborder="0" width="646" height="190"></iframe>
 
+### Notes:
+There is an KatVR SDK mod available
+You can find the mod [here](https://github.com/McFredward/BaS_Katwalk)
+
 ### Rating Info:
 **Walking speed realism:** The walking speed in the game is realistic and matches the user's speed on the treadmill. (3 points) <br><br>
 **World Size:** The game has a mix of small, moderate and-or large-sized worlds that are easy to navigate. (3 points) <br><br>
