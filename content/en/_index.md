@@ -44,6 +44,12 @@ description: "KatDB is a community-driven project providing game compatibility r
 
 <div class="container">
   <div class="row">
+      <div class="col-md-6 col-lg-3">
+      <div class="alert alert-warning">
+        <h2>Affiliate:</h2>
+        <a href="https://www.kat-vr.com/products/kat-walk-c2?ref=katdb">KatVR</a> -- Affiliate link to the KatVR webshop - Use coupon code "dokterkat" for $50 off
+      </div>
+    </div>
     <div class="col-md-6 col-lg-3">
       <div class="alert alert-warning">
         <h2>Contribute:</h2>
@@ -60,12 +66,6 @@ description: "KatDB is a community-driven project providing game compatibility r
       <div class="alert alert-warning">
         <h2>Socials:</h2>
         <a href="https://discord.gg/kat-vr-community-785305088465567824">Discord</a> -- Community established Kat VR Discord Server <br></br>
-      </div>
-    </div>
-    <div class="col-md-6 col-lg-3">
-      <div class="alert alert-warning">
-        <h2>Affiliate:</h2>
-        <a href="https://www.kat-vr.com/products/kat-walk-c2?ref=katdb">KatVR</a> -- Affiliate link to the KatVR webshop - Use coupon code "dokterkat" for $50 off
       </div>
     </div>
   </div>
