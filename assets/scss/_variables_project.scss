@@ -6,13 +6,18 @@ $enable-shadows: false;
 .td-navbar .navbar-brand__name {
   display: none;
 }
-a:link {
-  color: #30cd57;
-}
 
+a:link,
 a:visited {
   color: #30cd57;
 }
+
+/* Add a new class or ID for the anchor elements on the "Contribute" webpage */
+.contribute-link:link,
+.contribute-link:visited {
+  color: white; /* Set the color to white for the "Contribute" webpage */
+}
+
 footer {
     height: 10%;
 }

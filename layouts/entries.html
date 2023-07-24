@@ -1,0 +1,10 @@
+{{/* entries.html */}}
+{{ define "main" }}
+  {{ range $game, $data := .Site.Data.steamvr }}
+    <h2>{{ $game }}</h2>
+    <p>Rating: {{ $data.rating }}</p>
+    <p>Tags: {{ range $tag := $data.tags }}{{ $tag }} {{ end }}</p>
+    <!-- Render other game information here -->
+  {{ end }}
+{{ end }}
+

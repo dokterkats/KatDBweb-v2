@@ -11,7 +11,7 @@ tags = ["GOLD", "Action", "Co-op", "Multiplayer", "Zombies", "Shooter"]
 <iframe src="https://store.steampowered.com/widget/751630/" frameborder="0" width="646" height="190"></iframe>
 
 ### Rating Info:
-**Walking speed realism:** T The walking speed in the game is realistic and matches the user's speed on the treadmill. (3 points) <br><br>
+**Walking speed realism:** The walking speed in the game is realistic and matches the user's speed on the treadmill. (3 points) <br><br>
 **World Size:** The game has a mix of small, moderate and-or large-sized worlds that are easy to navigate. (3 points) <br><br>
 **Responsiveness:** The game is responsive to the user's movements with minimal delays or inaccuracies. (3 points) <br><br>
 **Sprinting:** The sprinting mechanics are responsive and realistic (3 points) <br><BR>

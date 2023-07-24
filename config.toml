@@ -217,6 +217,11 @@ enable = false
     weight = 1
     url = "/db"
     
+[[menu.main]]
+    name = "Contribute"
+    weight = 4
+    url = "/contribute"
+        
 #[[menu.main]]
 #    name = "Posts"
 #    weight = 2
