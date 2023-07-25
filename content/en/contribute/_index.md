@@ -49,7 +49,6 @@ a {
     <h3>Submit a rating</h3>
     <a href="https://forms.gle/AUk3oLBmGAAbnDoE8" class="btn contribute-link">
         <i class="fa fa-file-pen"></i>
-        Write
     </a>
     <br>
     <div class="line"></div>
@@ -57,7 +56,6 @@ a {
     <h3>Upload a config</h3>
     <a href="https://forms.gle/tAfWs6CGrNHKrpucA" class="btn contribute-link">
         <i class="fa fa-upload"></i>
-        Upload
     </a>
 </div>
 

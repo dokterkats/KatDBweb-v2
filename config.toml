@@ -222,10 +222,10 @@ enable = false
     weight = 4
     url = "/contribute"
         
-#[[menu.main]]
-#    name = "Posts"
-#    weight = 2
-#    url = "/blog"  
+[[menu.main]]
+    name = "Posts"
+    weight = 2
+    url = "/blog"  
     
 [[menu.main]]
     name = "Mods"
